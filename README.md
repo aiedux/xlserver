@@ -1,4 +1,4 @@
-# ai gitops mirror server for the colab app
+# gitops mirror server for the colab app
 
 ## install
 
