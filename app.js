@@ -4,6 +4,11 @@ let logger = require('morgan');
 let bodyParser = require('body-parser');
 let redis = require('redis');
 
+// start a local Redis-server
+const { spawn } = require('child_process');
+console.log('Launching a local Redis Server...');
+const child = spawn('redis-server');
+
 let app = express();
 
 // Create Redis Client - Must have Redis server started with cmd: redis-server 
