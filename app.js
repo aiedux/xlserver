@@ -6,8 +6,23 @@ let redis = require('redis');
 
 // start a local Redis-server
 const { spawn } = require('child_process');
-console.log('Launching a local Redis Server...');
+console.log('Launching a local Redis Server ...');
 const child = spawn('redis-server');
+
+// start a Redis-cli in a new shell for dev access to the db
+const { exec } = require("child_process");
+console.log('Launching a shell with a Redis-cli client ...');
+exec("redis-cli", (error, stdout, stderr) => {
+    if (error) {
+        console.log(`error: ${error.message}`);
+        return;
+    }
+    if (stderr) {
+        console.log(`stderr: ${stderr}`);
+        return;
+    }
+    console.log(`stdout: ${stdout}`);
+});
 
 let app = express();
 

@@ -6,7 +6,13 @@
 npm install
 ```
 
-## launch - ToDo:
+## launch server
+
+```
+nodemon
+```
+
+## ToDo:
 
 - start Redis server
 - start Redis CLI for dev/testing
