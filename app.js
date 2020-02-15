@@ -4,8 +4,8 @@ let logger = require('morgan');
 let bodyParser = require('body-parser');
 let redis = require('redis');
 
-const ejs = require('ejs');
-ejs.delimiter = '|';
+// const ejs = require('ejs');
+// ejs.delimiter = '|';
 
 // start a local Redis-server
 const { spawn } = require('child_process');
