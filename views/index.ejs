@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>xl social network</title>
+  <title>xl social memory</title>
   <!-- <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,7 +18,7 @@
 
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">ai Redis Server</a>
+    <a class="navbar-brand" href="#">xl social memory</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
       aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,14 +28,13 @@
   <div class="container">
 
     <form method="post" action="/task/add">
-      <label>Add Task</label>
-      <input type="text" name="task" placeholder="Add Task">
-      <input type="submit" value="Submit">
+      <label>add memo</label>
+      <input type="text" name="task" size="50" placeholder="todo: learn something">
+      <input type="submit" value="+">
     </form>
-
-    <h3><%= title %></h3>
     <p>eg: <b>t:</b>cmd <b>f:</b>redis.sh <b>p:</b>redis.hash <b>|</b> <b>cmd:</b> HGET key field <b>|</b> <b>def:</b> # get the value of a hash field</p>
 
+    <h3><%= title %></h3>
     <form method="post" action="/task/delete">
       <ul class="task-list">
         <% tasks.forEach(function(task){ %>

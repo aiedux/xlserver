@@ -50,7 +50,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
-  let title = 'in Memory';
+  let title = 'social memory';
 
   // read all tasks entries from Redis db
   client.lrange('tasks', 0, -1, function (err, reply) {
