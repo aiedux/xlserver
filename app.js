@@ -4,6 +4,9 @@ let logger = require('morgan');
 let bodyParser = require('body-parser');
 let redis = require('redis');
 
+const ejs = require('ejs');
+ejs.delimiter = '|';
+
 // start a local Redis-server
 const { spawn } = require('child_process');
 console.log('Launching a local Redis Server ...');
@@ -25,6 +28,8 @@ client.on('connect', function () {
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.set('ejs.open', '<<');
+app.set('ejs.close', '>>');
 
 let allowCrossDomain = function(req, res, next) {
     res.header('Access-Control-Allow-Origin', "*");
