@@ -5,7 +5,7 @@
 
 redis-server /path/redis.conf  # start redis with the related configuration file
 redis-cli                      # opens a redis prompt
-
+BGSAVE                         # save the database in background
 
 # Strings.
 
