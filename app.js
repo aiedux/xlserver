@@ -49,6 +49,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+// adding a default call hash to the readis db - if db empty?
 client.hmset('call', ['name', 'social memoization', 'company', 'CMD.co', 'phone', '365-247-2020', 'time', 'noon']);
 
 app.get('/', function (req, res) {
