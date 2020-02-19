@@ -4,13 +4,17 @@ let logger = require('morgan');
 let bodyParser = require('body-parser');
 let redis = require('redis');
 
+// const ejs = require('ejs');
+// ejs.delimiter = '|';
+
 // start a local Redis-server
 const { spawn } = require('child_process');
 console.log('Launching a local Redis Server ...');
 const redis_server = spawn('redis-server');
+
 // start a Terminal for dev access to Redis 
-console.log('Launching a shell for a Redis client ... type redis-cli');
-const redis_cli = spawn('open', [ '-a', 'Terminal','-n']);
+// console.log('Launching a shell for a Redis client ... type redis-cli');
+// const redis_cli = spawn('open', [ '-a', 'Terminal','-n']);
 
 let app = express();
 
@@ -45,8 +49,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+client.hmset('call', ['name', 'social memoization', 'company', 'CMD.co', 'phone', '365-247-2020', 'time', 'noon']);
+
 app.get('/', function (req, res) {
-  let title = 'Task List';
+  let title = 'social memory';
 
   // read all tasks entries from Redis db
   client.lrange('tasks', 0, -1, function (err, reply) {
