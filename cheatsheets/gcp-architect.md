@@ -89,117 +89,116 @@
 
 ### Compute Engine - Virtual Machines
 
-Compute Engine Deep Dive 00:02:46
-Disks 00:13:34
-Hands On - Disks 00:17:31
-Hands On - Attaching and Resizing Disks 00:11:48
-Images 00:12:58
-Hands On - Custom Images 00:08:48
-Snapshots 00:11:42
-Startup and Shutdown Scripts 00:07:56
-Preemptible VM's 00:12:22
-Hands-On Lab: Working with Disks on Google Compute Engine 01:00:00
-Hands-On Lab: Working with Custom Images on Google Compute Engine 01:00:00
-Hands-On Lab: Working with Snapshots on Google Compute Engine 01:00:00
-Hands-On Lab: Using Startup Scripts on Google Compute Engine 00:30:00
+- Compute Engine Deep Dive 00:02:46
+- Disks 00:13:34
+- Hands On - Disks 00:17:31
+- Hands On - Attaching and Resizing Disks 00:11:48
+- Images 00:12:58
+- Hands On - Custom Images 00:08:48
+- Snapshots 00:11:42
+- Startup and Shutdown Scripts 00:07:56
+- Preemptible VM's 00:12:22
+- Hands-On Lab: Working with Disks on Google Compute Engine 01:00:00
+- Hands-On Lab: Working with Custom Images on Google Compute Engine 01:00:00
+- Hands-On Lab: Working with Snapshots on Google Compute Engine 01:00:00
+- Hands-On Lab: Using Startup Scripts on Google Compute Engine 00:30:00
 
 ## Elastic Cloud Infrastructure: Scaling and Automation
 
 ### Load Balancing and Instance Groups
 
-Force Multipliers - Automation and Scaling 00:04:36
-Load Balancers 00:14:42
-Instance Groups and Autoscaling 00:15:31
-Hands On - Managed Instance Group 00:13:48
-Hands On - Load Balancer 00:08:44
-Hands On - Autoscaler and Instance Group Updates 00:10:23
-Hands-On Lab: Creating a Load Balanced Managed Instance Group on Google Cloud Platform 01:00:00
+- Force Multipliers - Automation and Scaling 00:04:36
+- Load Balancers 00:14:42
+- Instance Groups and Autoscaling 00:15:31
+- Hands On - Managed Instance Group 00:13:48
+- Hands On - Load Balancer 00:08:44
+- Hands On - Autoscaler and Instance Group Updates 00:10:23
+- Hands-On Lab: Creating a Load Balanced Managed Instance Group on Google Cloud Platform 01:00:00
 
 ### Google Cloud CDN
 
-Cloud CDN Concepts 00:10:00
+- Cloud CDN Concepts 00:10:00
 
 ### Cloud Deployment Manager
 
-Cloud Deployment Manager Concepts 00:07:26
-Hands On - Cloud Deployment Manager 00:15:32
-Hands-On Lab: Deploying Resources with Google Cloud Deployment Manager 01:00:00
+- Cloud Deployment Manager Concepts 00:07:26
+- Hands On - Cloud Deployment Manager 00:15:32
+- Hands-On Lab: Deploying Resources with Google Cloud Deployment Manager 01:00:00
 
 ## Elastic Cloud Infrastructure: Managed Compute Services
 
 ### Compute Services Overview
 
-Where Should I Run My Code? 00:14:22
+- Where Should I Run My Code? 00:14:22
 
 ### App Engine
 
-App Engine Overview 00:10:05
-Hands On - App Engine Versions and Memcache 00:12:48
-Hands-On Lab: Managing Versions of an App Engine Application 00:30:00
+- App Engine Overview 00:10:05
+- Hands On - App Engine Versions and Memcache 00:12:48
+- Hands-On Lab: Managing Versions of an App Engine Application 00:30:00
 
 ### Kubernetes Engine
 
-Container Resources 00:05:20
-GKE Administration Concepts 00:16:46
-GKE Commands and Hands-On 00:24:22
-Hands-On Lab: Creating and Deploying a Google Kubernetes Engine Cluster 01:00:00
+- Container Resources 00:05:20
+- GKE Administration Concepts 00:16:46
+- GKE Commands and Hands-On 00:24:22
+- Hands-On Lab: Creating and Deploying a Google Kubernetes Engine Cluster 01:00:00
 
 ### Big Data, Machine Learning, and Data Lifecycle
 
-Big Data and Machine Learning Services 00:15:55
-Data Lifecycle 00:09:22
+- Big Data and Machine Learning Services 00:15:55
+- Data Lifecycle 00:09:22
 
 ## Business Scenarios
 
 ### Case Studies
 
-Case Study Overview 00:03:52
-Mountkirk Games 00:14:44
-Dress4Win 00:14:22
-TerramEarth 00:13:32
+- Case Study Overview 00:03:52
+- Mountkirk Games 00:14:44
+- Dress4Win 00:14:22
+- TerramEarth 00:13:32
 
 ## Architecting Google Cloud Solutions
 
 ### Planning Your Cloud Transition
 
-Making the Case for the Cloud and GCP 00:09:17
-Cost Optimization 00:10:09
-Architecting Cloud Applications 00:07:15
+- Making the Case for the Cloud and GCP 00:09:17
+- Cost Optimization 00:10:09
+- Architecting Cloud Applications 00:07:15
 
 ### Migrating to Google Cloud
 
-Planning a Successful Cloud Migration
-00:14:25
-Storage Transfer Service
-00:06:58
-Data Migration Best Practices
-00:11:56
-Migrating Applications
-00:06:20
-Resilient Cloud Solution Infrastructure
-Disaster Recovery Concepts
-00:08:58
-Backup and Recovery Methods in GCP
-00:08:26
-Security and Compliance
-Security Methods in GCP
-00:09:32
-Network Design for Security and Isolation
-00:13:59
-Legal Compliance and Audits
-00:13:58
-Development Practices
-Software Development Lifecycle Concepts
-00:16:07
-Testing Your Application for Resiliency
-00:10:51
-Wrapping Up
-Getting Ready for the Exam
-Additional Study Resources
-00:04:11
-Course Conclusion
-Preparing for the Exam
-00:06:32
-landscape
-Practice Exam / Quiz: Google Cloud Certified Professional Cloud Architect - Practice Exam
-02:00:00
+- Planning a Successful Cloud Migration 00:14:25
+- Storage Transfer Service 00:06:58
+- Data Migration Best Practices 00:11:56
+- Migrating Applications 00:06:20
+
+### Resilient Cloud Solution Infrastructure
+
+Disaster Recovery Concepts 00:08:58
+Backup and Recovery Methods in GCP 00:08:26
+
+### Security and Compliance
+
+- Security Methods in GCP 00:09:32
+- Network Design for Security and Isolation 00:13:59
+- Legal Compliance and Audits 00:13:58
+
+### Development Practices
+
+- Software Development Lifecycle Concepts 00:16:07
+- Testing Your Application for Resiliency 00:10:51
+
+## Wrapping Up
+
+### Getting Ready for the Exam
+
+Additional Study Resources 00:04:11
+
+### Course Conclusion
+
+- Preparing for the Exam 00:06:32
+
+### Practice Exam / Quiz:
+
+- Google Cloud Certified Professional Cloud Architect - Practice Exam 02:00:00
