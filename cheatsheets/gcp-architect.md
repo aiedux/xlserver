@@ -4,10 +4,10 @@
 
 ### Course Introduction
 
-Course Introduction 00:04:10
-Using the Master Builder's Guide to Google Cloud - Interactive Diagram 00:02:39
-Purpose of this Course 00:05:18
-Architect Exam and Course Overview 00:05:32
+- Course Introduction 00:04:10
+- Using the Master Builder's Guide to Google Cloud - Interactive Diagram 00:02:39
+- Purpose of this Course 00:05:18
+- Architect Exam and Course Overview 00:05:32
 
 ## Core Management Services
 
@@ -21,8 +21,7 @@ Architect Exam and Course Overview 00:05:32
 
 ### Cloud IAM
 
-Cloud IAM Overview 00:18:26
-
+- Cloud IAM Overview 00:18:26
 - IAM Hands-On Part 1 00:09:43
 - IAM Hands-On Part 2 00:14:28
 - Service Accounts 00:08:47
@@ -61,49 +60,35 @@ Cloud IAM Overview 00:18:26
 
 ### Managed Databases on Google Cloud Platform
 
-Managed Databases Overview
-00:09:44
-Managed Databases on Google Cloud
-00:22:13
-Cloud SQL Closer Look
-00:13:40
-BigQuery Overview
-00:17:24
-Virtual Networks
-VPC Concepts
-00:12:17
-VPC Hands-On
-00:14:27
-Firewalls
-00:05:40
-Hands-On - Firewall Rules
-00:09:15
-Shared VPC Concepts
-00:14:14
-Hands On - Shared VPC
-00:12:30
-Hands-On Lab: Creating a Custom Mode VPC Network on Google Cloud Platform
-00:30:00
-Hands-On Lab: Creating Firewall Rules on a Google Cloud VPC Network
-00:30:00
-Interconnecting Networks (Hybrid Networking)
-The Power of the Network
-00:05:45
-Connecting your Network to Google
-00:15:34
-Cloud VPN
-00:07:15
-Hands On - Cloud VPN
-00:11:57
-Hands On - Cloud Router
-00:11:48
-Google Cloud DNS
-00:05:16
-Hands-On Lab: Connecting Networks with Google Cloud VPN Using Static Routes
-01:00:00
-Hands-On Lab: Connecting Networks with Google Cloud VPN Using Cloud Router (Dynamic Routes)
-01:00:00
-Compute Engine - Virtual Machines
+- Managed Databases Overview 00:09:44
+- Managed Databases on Google Cloud 00:22:13
+- Cloud SQL Closer Look 00:13:40
+- BigQuery Overview 00:17:24
+
+### Virtual Networks
+
+- VPC Concepts 00:12:17
+- VPC Hands-On 00:14:27
+- Firewalls 00:05:40
+- Hands-On - Firewall Rules 00:09:15
+- Shared VPC Concepts 00:14:14
+- Hands On - Shared VPC 00:12:30
+- Hands-On Lab: Creating a Custom Mode VPC Network on Google Cloud Platform 00:30:00
+- Hands-On Lab: Creating Firewall Rules on a Google Cloud VPC Network 00:30:00
+
+### Interconnecting Networks (Hybrid Networking)
+
+- The Power of the Network 00:05:45
+- Connecting your Network to Google 00:15:34
+- Cloud VPN 00:07:15
+- Hands On - Cloud VPN 00:11:57
+- Hands On - Cloud Router 00:11:48
+- Google Cloud DNS 00:05:16
+- Hands-On Lab: Connecting Networks with Google Cloud VPN Using Static Routes 01:00:00
+- Hands-On Lab: Connecting Networks with Google Cloud VPN Using Cloud Router (Dynamic Routes) 01:00:00
+
+### Compute Engine - Virtual Machines
+
 Compute Engine Deep Dive
 00:02:46
 Disks
